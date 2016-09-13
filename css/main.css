@@ -1,0 +1,116 @@
+body{
+	margin:0;
+}
+div.bar{
+	background-color:#F1720D;
+	
+	padding: 5px;
+}
+nav {
+	background-color: #FE7E00
+}
+nav div{
+	display:inline-block;
+	margin-left: 100px;
+	margin-bottom: 30px;
+
+}
+nav div img {
+	height:60px;
+	width:60px;
+	margin-top:5px;
+	padding-top: 5px;
+
+}
+nav div span.first {
+	font-family: 'Fredoka One', cursive;
+	font-size:45px;
+	color:white;
+	display: inline-block;
+}
+nav span{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 45px;
+	color:white;
+}
+nav div sup {
+	color:white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:20px;
+}
+nav ul {
+	float:right;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-top: 28px;
+	margin-right:15px;
+}
+nav ul li a{
+	text-decoration:none;
+	color: white;
+	margin:25px 25px;
+	font-family: 'Roboto', sans-serif;
+}
+
+nav ul li a:hover{
+	color:black;
+	transition: 3s;
+}
+header{
+	float:right;
+	margin:5px 30px;
+	display: inline-block;
+	background-color: #F0F0F0;
+	padding: 10px 20px;
+}
+header input {
+	border: 1px solid #F0F0F0;
+	background-color: #F0F0F0;
+	padding: 10px 40px;
+}
+
+#body {
+	margin-left: 200px;
+	margin-top:100px;
+}
+#body img{
+	height: 350;
+	width:500px;
+}
+#body p{
+	display: inline-block;
+	font-size: 47px;
+	padding-left:30px;
+	padding-bottom: 400px;
+	position: absolute;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #ffcc80;
+}
+#body strong {
+	color: orange;
+}
+#body strong.blue {
+	color:#7ACCC8;
+}
+#body .button1{
+background-color: orange;
+border: 0;
+margin: 60px 30px;
+padding: 15px 40px; 
+color: white;
+}
+#body .button2 {
+	background-color: #7ACCC8;
+	color: white;
+	padding: 15px 40px;
+	border: 0;
+}
+
+footer {
+	background-color: #7ACCC8;
+margin-top:39px;
+
+	padding: 50px;
+}
