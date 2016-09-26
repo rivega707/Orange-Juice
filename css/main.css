@@ -114,3 +114,117 @@ margin-top:39px;
 
 	padding: 50px;
 }
+
+/* start max-width 1300px */
+@media screen and (max-width: 1300px){
+	#body {
+		margin-left: -5px;
+	}
+}
+/* end max-width 1300 */
+
+/* start max-width 1124 */
+@media screen and (max-width: 1200px){
+	nav div {
+		margin-left: 10px;
+	}
+}
+
+/* end max-width 1124 */
+
+/* start max-width 1050px */
+@media screen and (max-width: 1050px){
+	#body p {
+		font-size: 36px;
+		
+		
+		
+		position: none;
+		
+
+	}
+	#body .button1 {
+		font-size: 10px;
+		padding: 10px 24px;
+		
+
+
+	}
+	#body .button2{
+		font-size: 10px;
+		padding: 10px 24px;
+
+	}
+
+	header{
+		padding: 0 10px;
+		float: none;
+	}
+	header input{
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 1035px){
+	nav ul{
+		float:none;
+		display: block;
+		text-align: center;
+		width: 90%;
+	}
+	nav ul li{
+		margin-top:15px;
+	}
+	div.bar{
+	visibility: hidden;
+	}
+	#body img {
+		height: 175px;
+		width: 250px
+	}
+	#body .button1,
+	#body .button2{
+		margin-top: 200px;
+	}
+}
+
+
+/* end max-width 1035px */
+
+/* start max-width 675px */
+@media screen and (max-width: 676px){
+	#body p{
+		bottom:-500px;
+		left: -1px;
+	}	
+	footer {
+		margin-top: 400px;
+	}
+	#body .button1,
+	#body .button2{
+		margin-top: 700px;
+	}
+	#body img{
+		display: none;
+	}
+	#body p{
+		font-size: 29px;
+		top: 300px;
+	}
+	#body .button1,
+	#body .button2{
+		margin-top: 100px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
